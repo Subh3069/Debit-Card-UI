@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: skyblue;
+}
+
+.container{
+    margin: auto;
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.839);
+    opacity: 0.9;
+    border-radius: 7px;
+}
+.inner-div{
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.inner-div .logo{
+    padding-top: 0;
+}
+.inner-div h4{
+    color: white;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-family: helvetica, arial, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding-right: 100px;
+}
+.inner-div .chip{
+    height: 49px;
+    width: 76px;
+    padding-top: 5px;
+    padding-right: 18px;
+}
+
+.inner-div-2{
+    width: 100%;
+    margin-top: 35px;
+    padding-left: 20px;
+}
+
+.inner-div-2 h5{
+    color: gray;
+    font-family: helvetica, arial, sans-serif;
+    padding-left: 9px;
+    font-weight: 400;
+}
+
+.inner-div-2 h4{
+    word-spacing: 13px;
+    color: gray;
+    font-weight: 500;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 9px;
+}
+
+.inner-div-3{
+    width: 100%;
+    color: gray;
+    display: flex;
+    padding-left: 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.inner-div-3 h4{
+    padding-left: 9px;
+    padding-right: 125px;
+    font-weight: 300;
+}
+.inner-div-3 .valid{
+    font-size: 12px;
+    padding-left: 23px;
+    color: gray;
+}
+.inner-div-3 .valid .valid-no{
+    font-style: italic;
+    padding: 5px 0 0 10px;
+}
